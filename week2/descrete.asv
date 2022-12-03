@@ -1,0 +1,12 @@
+t=linspace(0,1,200);
+%t=0:1;
+A=1;
+f=5;
+fi=0;
+w=2*pi()*f;
+W=((1/10)*2*pi());
+Ts=(W/w);
+n=(t./Ts);
+N=round()
+y=A*cos(w*n+fi);
+stem(n,y)
