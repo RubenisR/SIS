@@ -7,9 +7,11 @@ subplot(3,1,2);
 x2=0.3*cos(((20*pi)/7)*n);
 stem(n,x2)
 
-subplot(3,1,3);
+subplot(3,1,3); %sum
 x3=x1+x2;
 stem(n,x3)
+
+
 
 
 
